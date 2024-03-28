@@ -37,5 +37,7 @@ jobs:
     - name: Create Tunnel
       run: .\ngrok\ngrok.exe tcp 3389
 ```
-- Run The WorkFlow and take note of credentials (runneradmin:P@ssw0rd!)
-- Get the ngrok endpoint url and use it as ip or address in Remote Desktop Connection with credentials
+- Run The WorkFlow and take note of credentials
+  - User Name: runneradmin
+  - Password: P@ssw0rd!
+- Get the ngrok Endpoints URL and copy IP:HOST (e.g. 2.tcp.us-cal-1.ngrok.io:16478) and use it as computer address in Remote Desktop Connection with credentials
